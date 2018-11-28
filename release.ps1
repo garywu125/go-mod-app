@@ -11,5 +11,7 @@
 #   switch to powershell
 #   batch process: PowerShell.exe -Command "./release.ps1" <tag-name>
 
+# upload tag release buid to github.com
+
 $Env:GOOS = "linux"; $Env:GOARCH = "amd64";go build -o ../release/test1/v0.1.1/test1_linux_amd64
 $Env:GOOS = "windows"; $Env:GOARCH = "amd64";go build -o ../release/test1/v0.1.1/test1_windows_amd64.exe
