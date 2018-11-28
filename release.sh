@@ -4,6 +4,7 @@
 
 # tag via git :
 #   add tag : commit/push all/add new tag name
+#            - git tag -a <tag-name> -m "message"
 #   check out tag: git checkout <tag-name>
 #   sync remote repository: git push origin <tag_name>
 
