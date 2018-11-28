@@ -3,7 +3,7 @@
 # 處理步驟:
 
 # tag via git :
-#   add tag : commit all/add tag name
+#   add tag : commit/push all/add new tag name
 #   check out tag: git checkout <tag-name>
 #   sync remote repository: git push origin <tag_name>
 

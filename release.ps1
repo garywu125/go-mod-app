@@ -1,8 +1,11 @@
 # release differnet platform execution file
 # 處理步驟:
+
 # tag via git :
-#   add tag : commit all/add tag name/sync remote repository
-#   check out tag: git checkout <tag-name>
+#   add tag : commit/push all/add new tag name
+#   checkout tag: git checkout <tag-name>
+#   sync remote repository: git push origin <tag_name>
+
 # build on shell:
 #   switch to powershell
 #   batch process: PowerShell.exe -Command "./release.ps1" <tag-name>
